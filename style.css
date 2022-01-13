@@ -7,8 +7,7 @@
 }
 
 /* Top  */
-.top,
-nav {
+.top {
   padding: 0 7%;
 }
 .top {
@@ -32,6 +31,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 7%;
 }
 
 .logo {
@@ -55,22 +55,20 @@ h1 > i {
   color: black;
   margin-left: 2px;
 }
-/* Nav bar  */
-ul {
-  list-style-position: inside;
-}
-li {
-  float: left;
-  margin: 20px;
-}
-
 div.logo > span {
   color: rgba(0, 0, 0, 0.274);
 }
+/* Nav bar  */
+ul {
+  list-style-position: inside;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
 li > a {
   text-decoration: none;
   color: black;
-  text-transform: uppercase;
 }
 li:hover {
   list-style-type: none;
