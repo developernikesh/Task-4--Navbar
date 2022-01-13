@@ -27,6 +27,7 @@ nav {
 }
 
 /* Navbar */
+/* logo  */
 nav {
   display: flex;
   justify-content: space-between;
@@ -47,13 +48,14 @@ nav {
   padding: 0 20px;
   font-size: larger;
 }
-ul {
-  list-style-position: inside;
+h1 {
+  letter-spacing: 2px;
 }
-li {
-  float: left;
-  margin: 20px;
+h1 > i {
+  color: black;
+  margin-left: 2px;
 }
+/* Nav bar  */
 ul {
   list-style-position: inside;
 }
